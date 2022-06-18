@@ -7,5 +7,19 @@
 	</parent>
 	<artifactId>project-d</artifactId>
 
-	
+	<dependencies>
+		<dependency>
+			<groupId>com.app</groupId>
+			<artifactId>project-c</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			
+			<exclusions>
+				<exclusion>
+					<groupId>com.app</groupId>
+					<artifactId>project-b</artifactId>
+				</exclusion>
+			</exclusions>
+			
+		</dependency>
+	</dependencies>
 </project>
