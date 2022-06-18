@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProjectSpringBootApplication {
 	@GetMapping
 	public String message() {
-		return "test new message";
+		return "new message";
 	}
 
 	public static void main(String[] args) {
